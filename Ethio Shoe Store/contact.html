@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+     <style>
+     *{
+            margin: 0;
+            padding: 0;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+       }
+          body,html{
+          height: 100%;
+          }
+           .navbar-brand {
+          	      color: #9fafca;
+                  font-size: 20px;
+                  letter-spacing: 2px;
+                  position: absolute;
+                  top: 20px;
+                  left: 50px;
+                  text-transform: uppercase;
+                  font-weight: bold;
+          }
+          .contact-section{
+            background: url("bg.png");
+          background-repeat:  no-repeat;
+          background-position: center ;
+          height: 100%;
+            background-size: cover;
+            /*padding: 40px 0;*/
+          }
+          .contact-section h1{
+            text-align: center;
+            color: #9fafca;
+            text-transform: uppercase;
+          }
+          .border{
+            width: 100px;
+            height: 10px;
+            background: rgba(0,0,0,0.8);
+            margin: 40px auto;
+
+          }
+
+          .contact-form{
+            max-width: 600px;
+            margin: auto;
+            padding: 0 10px;
+            overflow: hidden;
+          }
+
+          .contact-form-text{
+            display: block;
+            width: 100%;
+            box-sizing: border-box;
+            margin: 16px 0;
+            border: 0;
+            background: rgba(0,0,0,0.8);
+            padding: 20px 40px;
+            outline: none;
+            color: rgba(0,0,0,0.8);
+            transition: 0.5s;
+            border-radius: 50px;
+          }
+          .contact-form-text:focus{
+            box-shadow: 0 0 10px 4px  rgba(0,0,0,1.0);
+          }
+          textarea.contact-form-text{
+            resize: none;
+            height: 120px;
+          }
+          .contact-form-btn{
+            background-color :rgba(0,0,0,0.8);
+            border-radius: 50px;
+            border: none;
+            color: #9fafca;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+          }
+
+          .contact-form-btn:hover{
+            background: rgba(0,0,0,1.0);
+            font-size: 20px;
+          }
+          footer {
+             position: fixed;
+             width: 100%;
+             left: 0;
+             bottom: 0;
+             background-color: rgba(0,0,0,0.5);
+             color: #c0d96f;
+             text-align: center;
+           }
+        </style>
+ </head>
+  <body>
+
+<div class="contact-section">
+  <p class="navbar-brand">Ethio Shoes Store</p><br><br>
+
+<br><br>
+  <h1>Contact Us</h1>
+ <br><br>
+  <form class="contact-form">
+    <input type="text" class="contact-form-text" placeholder="Your name">
+    <input type="email" class="contact-form-text" placeholder="Your email">
+    <input type="text" class="contact-form-text" placeholder="Your phone">
+    <textarea class="contact-form-text" placeholder="Your message"></textarea>
+    <input type="submit" class="contact-form-btn" value="Send">
+  </form>
+</div>
+<footer>
+   <p>Copyright &copy; 2021 Ethio Shoes Store.</p>
+</footer>
+</body>
+</html>

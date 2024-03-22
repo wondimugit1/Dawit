@@ -1,0 +1,130 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  background: #cd7700;
+  font-family:  Georgia, 'Times New Roman', Times, serif;
+  background-image: url(bg2.jpg);
+}
+nav{
+  width: 100%;
+  height: 65px;
+  background: rgba(0,0,0,0.6);
+  line-height: 55px;
+  padding: 0px 100px;
+  position: fixed;
+  z-index: 1;
+}
+nav .logo{
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+}
+nav .logo p{
+  float: left;
+  color: #9fafca;
+  text-transform: uppercase;
+}
+nav ul{
+  float: right;
+}
+nav ul li{
+  display: inline-block;
+  list-style: none;
+}
+nav ul li a{
+  color: #9fafca;
+  text-decoration: none;
+  font-size: 18px;
+  text-transform: uppercase;
+  padding: 0px 15px;
+}
+nav ul li a:hover{
+  color: #c0d96f;
+  font-size: 25px;
+}
+nav ul li .active{
+  color: #c0d96f;
+}
+section{
+            height: 100vh;
+            width: 100%;
+            background-size: cover;
+            background-position: center;
+        }
+        .form-container{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            width: 380px;
+            padding: 50px 30px;
+            border-radius: 10px;
+            box-shadow:7px 7px 60px #000;
+        }
+        h1{
+            color: #c0d96f;
+            font-size: 2em;
+            text-transform: uppercase;
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        .control input{
+            padding: 10px;
+            font-size: 16px;
+            display: block;
+            width: 100%;
+            color:#9fafca;
+            background: rgba(0,0,0,0.6);
+            outline: none;
+            border: none;
+            margin: 1em 0;
+
+        }
+        .control .btn{
+            color: #c0d96f;
+            text-transform: uppercase;
+            background: rgba(0,0,0,0.8);
+            border-radius: 50px;
+            opacity: .7;
+            transition: opacity .3s ease;
+
+        }
+        .control label{
+          color: #c0d96f;
+        }
+        span{
+          color: #c0d96f;
+        }
+        .btn:focus{
+            opacity: 1;
+        }
+        .btn:hover{
+          background: rgba(0,0,0,1.0);
+          font-size: 20px;
+        }
+        p{
+            text-align: center;
+        }
+        a{
+            text-decoration: none;
+            color: #c0d96f;
+            opacity: .7;
+        }
+        a:hover{
+            opacity: 1;
+        }
+        footer {
+	         position: fixed;
+	         width: 100%;
+	         left: 0;
+	         bottom: 0;
+	         background-color: rgba(0,0,0,0.5);
+	         color: #c0d96f;
+	         text-align: center;
+         }
